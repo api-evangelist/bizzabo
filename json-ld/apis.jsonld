@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "apis": "https://apis.io/vocab/",
+    "humanURL": "https://schema.org/url",
+    "baseURL": "https://schema.org/url"
+  },
+  "@type": "Organization",
+  "name": "Bizzabo",
+  "description": "Bizzabo is a B2B event experience platform with REST APIs for managing conferences, speakers, ticketing, attendee data, and event analytics and performance metrics.",
+  "url": "https://www.bizzabo.com/",
+  "sameAs": [
+    "https://github.com/bizzabo",
+    "https://status.bizzabo.com/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.bizzabo.com/contact-us",
+    "contactType": "customer support"
+  },
+  "subjectOf": [
+    {
+      "@type": "WebSite",
+      "name": "Bizzabo Blog",
+      "url": "https://www.bizzabo.com/blog",
+      "description": "Blog covering event management, B2B events, event technology, and industry trends."
+    },
+    {
+      "@type": "WebSite",
+      "name": "Bizzabo Status Page",
+      "url": "https://status.bizzabo.com/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Bizzabo Pricing",
+      "url": "https://www.bizzabo.com/pricing"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Bizzabo Integrations",
+      "url": "https://www.bizzabo.com/event-management-software/event-software-integrations"
+    }
+  ],
+  "offers": {
+    "@type": "SoftwareApplication",
+    "name": "Bizzabo Public API",
+    "description": "RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to build custom integrations and automations.",
+    "url": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
+    "applicationCategory": "Event Management API",
+    "operatingSystem": "Web",
+    "featureList": [
+      "Event management",
+      "Contact management",
+      "Attendee registration",
+      "Session management",
+      "Speaker management",
+      "Ticketing",
+      "Analytics",
+      "Webhooks"
+    ],
+    "documentation": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
+    "termsOfService": "https://www.bizzabo.com/contact-us",
+    "provider": {
+      "@type": "Organization",
+      "name": "Bizzabo",
+      "url": "https://www.bizzabo.com/"
+    }
+  },
+  "keywords": [
+    "Events",
+    "Event Management",
+    "B2B Events",
+    "Conference Management",
+    "Ticketing",
+    "Attendees",
+    "Speakers",
+    "Registration",
+    "Analytics",
+    "Event Technology"
+  ]
+}
