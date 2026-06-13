@@ -1,0 +1,91 @@
+name: Bizzabo
+description: Bizzabo is a B2B event experience platform with REST APIs for managing
+  conferences, speakers, ticketing, attendee data, and event analytics and performance
+  metrics. The open API enables developers to build custom integrations, automate
+  event workflows, synchronize attendee data with CRM and marketing platforms, and
+  deliver personalized event experiences at scale.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/apis.yml
+version: '0.19'
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Events
+  - Event Management
+  - B2B Events
+  - Conference Management
+  - Ticketing
+  - Attendees
+  - Speakers
+  - Registration
+  - Analytics
+  - Event Technology
+apis:
+  - name: Bizzabo Public API
+    description: RESTful API for managing B2B events including conferences, speakers,
+      ticketing, attendee registration, contacts, sessions, and event analytics. Enables
+      third-party developers and Bizzabo customers to build custom integrations and
+      automations on top of the Bizzabo Event Experience OS.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api
+    baseURL: https://api.bizzabo.com/v1
+    tags:
+      - Events
+      - Contacts
+      - Registrations
+      - Sessions
+      - Speakers
+      - Tickets
+      - Analytics
+      - Webhooks
+    properties:
+      - type: Documentation
+        url: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api
+      - type: Authentication
+        url: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/ZG9jOjU4NjM4-authentication
+      - type: RateLimits
+        url: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/f6e05cacf2032-api-rate-limits
+      - type: StatusPage
+        url: https://status.bizzabo.com/
+      - type: Pricing
+        url: https://www.bizzabo.com/pricing
+      - type: Integrations
+        url: https://www.bizzabo.com/event-management-software/event-software-integrations
+      - type: GitHubOrganization
+        url: https://github.com/bizzabo
+      - type: npmPackage
+        url: https://www.npmjs.com/package/bizzabo-api
+      - type: ContactUs
+        url: https://www.bizzabo.com/contact-us
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/plans/plans.yml
+      - type: RateLimitRules
+        url: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Bizzabo Support
+        url: https://www.bizzabo.com/contact-us
+common:
+  - type: Website
+    url: https://www.bizzabo.com/
+  - type: Documentation
+    url: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api
+  - type: Blog
+    url: https://www.bizzabo.com/blog
+  - type: Pricing
+    url: https://www.bizzabo.com/pricing
+  - type: StatusPage
+    url: https://status.bizzabo.com/
+  - type: GitHubOrganization
+    url: https://github.com/bizzabo
+  - type: ContactUs
+    url: https://www.bizzabo.com/contact-us
+  - type: Integrations
+    url: https://www.bizzabo.com/event-management-software/event-software-integrations
+  - type: Login
+    url: https://login.bizzabo.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

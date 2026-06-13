@@ -1,0 +1,30 @@
+finops:
+  - name: Bizzabo API FinOps
+    description: Financial operations guidance for Bizzabo API usage. API access
+      is a premium add-on to the Event Experience OS platform subscription. The platform
+      starts at $17,999/year (3-user minimum, billed annually). API access pricing
+      requires contacting Bizzabo sales directly.
+    url: https://www.bizzabo.com/pricing
+    costModel: subscription
+    billingCycle: annual
+    notes:
+      - API access is available as a premium add-on and is not included in the base
+        platform subscription
+      - There are no published per-call or consumption-based charges for API usage;
+        pricing is bundled with the platform subscription
+      - Annual commitment is required; single-event or month-to-month purchases are
+        not available
+      - Contact Bizzabo sales for custom enterprise pricing and API access terms
+      - The platform does not publish a free tier or trial API access
+    costOptimization:
+      - Cache API responses where possible to minimize repeated calls within the 50
+        req/sec limit
+      - Use webhook subscriptions instead of polling for event-driven data updates
+      - Leverage bulk list endpoints to retrieve multiple records per API call rather
+        than individual record lookups
+      - Evaluate integration needs during annual renewal to ensure API add-on aligns
+        with actual usage
+    contacts:
+      - type: Sales
+        url: https://www.bizzabo.com/contact-us
+        description: Contact Bizzabo sales for API access pricing and enterprise packages

@@ -1,0 +1,19 @@
+rateLimits:
+  - name: Standard Rate Limit
+    description: Bizzabo limits all API consumers to 50 requests per second. When
+      this limit is exceeded, a 429 HTTP status code (Too Many Requests) is returned.
+      Consumers should implement exponential backoff retry logic when receiving 429
+      responses.
+    url: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/f6e05cacf2032-api-rate-limits
+    limits:
+      - type: requests_per_second
+        value: 50
+        scope: account
+    errorCodes:
+      - code: 429
+        description: Too Many Requests - rate limit exceeded, retry after backing off
+    recommendations:
+      - Implement exponential backoff when receiving 429 responses
+      - Cache frequently accessed data to reduce API call volume
+      - Use pagination parameters to retrieve data in batches
+      - Spread bulk operations over time to stay within limits

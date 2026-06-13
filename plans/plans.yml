@@ -1,0 +1,52 @@
+plans:
+  - name: Event Experience OS
+    description: All-in-one B2B event management platform including unlimited events,
+      unlimited registrations, contact management, ticketing, email campaigns, event
+      website builder, advanced registration flows, mobile app, and reporting analytics.
+      API access is available as a premium add-on.
+    url: https://www.bizzabo.com/pricing
+    price: 17999.00
+    priceCurrency: USD
+    billingCycle: annual
+    minimumSeats: 3
+    pricePerSeat: 499.00
+    pricePerSeatCycle: month
+    features:
+      - Unlimited events
+      - Unlimited registrations
+      - Contact management
+      - Ticketing and registration
+      - Email campaigns
+      - Event website builder
+      - Advanced registration flows
+      - Mobile app
+      - Reporting and analytics
+    addons:
+      - name: API Access
+        description: Open API access for custom integrations and third-party platform
+          connectivity
+        price: Contact for pricing
+      - name: Virtual Event Experience
+        description: Virtual event hosting and streaming capabilities
+        price: Contact for pricing
+      - name: Advanced Onsite Tools
+        description: Onsite check-in, badge printing, and attendee management tools
+        price: Contact for pricing
+      - name: Martech/CRM Integrations
+        description: Direct integrations with HubSpot, Marketo, and Salesforce
+        price: Contact for pricing
+      - name: Sponsor Portal
+        description: Dedicated sponsor management and reporting portal
+        price: Contact for pricing
+      - name: Speaker Portal
+        description: Speaker management, content collection, and communication portal
+        price: Contact for pricing
+      - name: Klik SmartBadge
+        description: Smart event wearables for networking and lead capture enhancement
+        price: Contact for pricing
+      - name: Custom-Branded App
+        description: White-labeled mobile event application
+        price: Contact for pricing
+      - name: SSO
+        description: Single Sign-On for enterprise identity management
+        price: Contact for pricing
