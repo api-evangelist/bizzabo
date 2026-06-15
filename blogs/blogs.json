@@ -80,5 +80,17 @@
       "date": "2026-05-29",
       "description": "Provides comprehensive guidance on writing event press releases with real-world examples, templates, and media coverage optimization strategies."
     }
-  ]
+  ],
+  "repo": "bizzabo",
+  "feeds": [
+    {
+      "source": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
+      "feed_url": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
