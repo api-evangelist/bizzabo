@@ -4,7 +4,7 @@ description: Bizzabo is a B2B event experience platform with REST APIs for manag
   metrics. The open API enables developers to build custom integrations, automate
   event workflows, synchronize attendee data with CRM and marketing platforms, and
   deliver personalized event experiences at scale.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/apis.yml
 version: '0.19'
 created: '2026-06-13'
@@ -27,7 +27,7 @@ apis:
       ticketing, attendee registration, contacts, sessions, and event analytics. Enables
       third-party developers and Bizzabo customers to build custom integrations and
       automations on top of the Bizzabo Event Experience OS.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api
     baseURL: https://api.bizzabo.com/v1
     tags:
