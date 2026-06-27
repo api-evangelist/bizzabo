@@ -1,88 +1,13 @@
 {
-  "name": "Bizzabo Blog",
-  "description": "Blog posts from Bizzabo covering event management, B2B events, event technology, marketing strategies, and industry trends.",
-  "url": "https://www.bizzabo.com/blog",
-  "tags": [
-    "Events",
-    "Event Management",
-    "B2B Events",
-    "Event Technology",
-    "Event Marketing",
-    "Conference Management"
-  ],
-  "posts": [
-    {
-      "title": "35 Bold Examples of Guerrilla Marketing",
-      "url": "https://www.bizzabo.com/blog/guerrilla-marketing-examples",
-      "description": "Explores guerrilla marketing tactics used by brands like Spotify and Tesla to create unforgettable moments and engage audiences."
-    },
-    {
-      "title": "The Events Industry's Top Marketing Statistics, Trends, and Benchmarks for 2026",
-      "url": "https://www.bizzabo.com/blog/event-marketing-statistics",
-      "description": "Covers event marketing statistics and benchmarks on budgets, ROI, AI, and engagement based on Bizzabo research and platform data."
-    },
-    {
-      "title": "How to Write a Conference Speaker Bio (Examples + Template)",
-      "url": "https://www.bizzabo.com/blog/conference-speaker-bio-examples-free-template",
-      "description": "Provides practical guidance for crafting compelling speaker bios that boost credibility and attendee engagement, with template included."
-    },
-    {
-      "title": "How To Use Event Software Analyst Reports To Choose the Right Technology",
-      "url": "https://www.bizzabo.com/blog/how-to-use-event-software-analyst-reports",
-      "description": "Explains how to leverage analyst reports like Gartner Magic Quadrant and Forrester Wave for selecting appropriate event platforms.",
-      "author": "Kerri Moore"
-    },
-    {
-      "title": "The Ultimate Guide to Event Badges",
-      "url": "https://www.bizzabo.com/blog/event-badges-and-name-tags-guide",
-      "author": "Kerri Moore",
-      "description": "Covers badge design, connection strategies, and implementation best practices for in-person events."
-    },
-    {
-      "title": "Why You Need an App for Event Lead Capture and Retrieval",
-      "url": "https://www.bizzabo.com/blog/event-lead-capture-and-retrieval-app-guide",
-      "author": "Kerri Moore",
-      "description": "Discusses the importance of lead capture tools at B2B events and essential features for storing and managing collected leads."
-    },
-    {
-      "title": "Why You Need Attendance Tracking Software for Events",
-      "url": "https://www.bizzabo.com/blog/attendance-tracking-software-guide",
-      "author": "Kerri Moore",
-      "description": "Examines how attendance tracking technology can enhance events and improve return on investment metrics."
-    },
-    {
-      "title": "20 Corporate Team Building Activities and Ideas for 2026",
-      "url": "https://www.bizzabo.com/blog/team-building-event-ideas",
-      "date": "2026-06-03",
-      "description": "Presents corporate team building activities suitable for in-person, virtual, and hybrid formats with 2026 trends and planning guidance."
-    },
-    {
-      "title": "How Streamlined Sponsorship Management Wins More Deals and Retains More Partners",
-      "url": "https://www.bizzabo.com/blog/streamlined-event-sponsorship-management",
-      "date": "2026-06-03",
-      "description": "Details how efficient sponsorship management systems help event organizers close deals faster and maintain sponsor relationships."
-    },
-    {
-      "title": "How To Write a Sponsorship Request Letter (with Template + AI Prompts)",
-      "url": "https://www.bizzabo.com/blog/how-to-write-sponsorship-request-letter",
-      "date": "2026-06-01",
-      "description": "Offers step-by-step guidance for composing persuasive sponsorship requests, including customizable templates and AI-assisted outreach strategies."
-    },
-    {
-      "title": "Best Lead Capture Apps for Events in 2026: Enterprise Tools Compared",
-      "url": "https://www.bizzabo.com/blog/best-lead-capture-apps-for-events",
-      "date": "2026-06-01",
-      "description": "Compares enterprise-level lead retrieval tools, AI enrichment capabilities, CRM integrations, and ROI strategies for multi-event teams."
-    },
-    {
-      "title": "How to Write a Press Release for an Event (With Template)",
-      "url": "https://www.bizzabo.com/blog/how-to-write-a-press-release-for-an-event",
-      "date": "2026-05-29",
-      "description": "Provides comprehensive guidance on writing event press releases with real-world examples, templates, and media coverage optimization strategies."
-    }
-  ],
   "repo": "bizzabo",
   "feeds": [
+    {
+      "source": "https://www.bizzabo.com/blog",
+      "feed_url": "https://www.bizzabo.com/feed",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
     {
       "source": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
       "feed_url": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
@@ -91,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 6
 }
