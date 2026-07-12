@@ -68,6 +68,8 @@ apis:
       - FN: Bizzabo Support
         url: https://www.bizzabo.com/contact-us
 common:
+  - type: DomainSecurity
+    url: security/bizzabo-domain-security.yml
   - type: Website
     url: https://www.bizzabo.com/
   - type: Documentation
