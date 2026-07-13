@@ -2,11 +2,11 @@
   "repo": "bizzabo",
   "feeds": [
     {
-      "source": "https://www.bizzabo.com/blog",
+      "source": "https://www.bizzabo.com/feed",
       "feed_url": "https://www.bizzabo.com/feed",
       "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 6
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 11
 }
