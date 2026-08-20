@@ -23,6 +23,17 @@ created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
+  - Event
+  - Event Management
+  - B2B Events
+  - Conference Management
+  - Ticketing
+  - Attendees
+  - Speakers
+  - Registration
+  - Analytics
+  - Event Technology
+tags_raw:
   - Events
   - Event Management
   - B2B Events
@@ -43,6 +54,15 @@ apis:
     humanURL: https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api
     baseURL: https://api.bizzabo.com/v1
     tags:
+      - Event
+      - Contacts
+      - Registrations
+      - Sessions
+      - Speakers
+      - Tickets
+      - Analytics
+      - Webhook
+    tags_raw:
       - Events
       - Contacts
       - Registrations
