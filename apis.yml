@@ -4,6 +4,17 @@ description: Bizzabo is a B2B event experience platform with REST APIs for manag
   metrics. The open API enables developers to build custom integrations, automate
   event workflows, synchronize attendee data with CRM and marketing platforms, and
   deliver personalized event experiences at scale.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
