@@ -2,23 +2,21 @@
   "repo": "bizzabo",
   "feeds": [
     {
-      "source": "https://www.bizzabo.com/feed",
-      "feed_url": "https://www.bizzabo.com/feed",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
       "feed_url": "https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.bizzabo.com/feed",
+      "feed_url": "https://www.bizzabo.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 37,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
