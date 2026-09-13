@@ -1,0 +1,72 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Bizzabo",
+    "identifier": "did:web:bizzabo.com",
+    "documentationUrl": "https://www.bizzabo.com/llms.txt"
+  },
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:bizzabo.com:api:public-api",
+      "displayName": "Bizzabo Public API",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "url": "https://www.bizzabo.com/openapi.json",
+      "description": "REST API for the Bizzabo Event Experience OS. Programmatic access to events, registrations, contacts, orders, agenda/sessions, speakers, partners, and webhooks. OAuth 2.0 client-credentials auth.",
+      "capabilities": [
+        "EventsAPI",
+        "RegistrationsAPI",
+        "SessionsAPI",
+        "SpeakersAPI",
+        "ContactsAPI",
+        "OrdersAPI",
+        "WebhooksAPI"
+      ],
+      "tags": [
+        "events",
+        "event-management",
+        "registration",
+        "b2b-events"
+      ],
+      "representativeQueries": [
+        "pull registration and attendee data from an event management platform",
+        "list the sessions and speakers for a conference via API",
+        "create or update event registrations programmatically",
+        "sync event contacts and orders into my CRM",
+        "subscribe to webhooks for new event registrations"
+      ]
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:bizzabo.com:server:marketing-mcp",
+      "displayName": "Bizzabo Marketing Content",
+      "type": "application/mcp-server-card+json",
+      "url": "https://www.bizzabo.com/.well-known/mcp-server-card.json",
+      "description": "Read-only MCP server over Bizzabo's published marketing content — blog posts, Event Experience Podcast episodes, customer case studies, guides, reports and product comparisons. Returns clean markdown with citable URLs. No credentials required.",
+      "capabilities": [
+        "search_content",
+        "get_content",
+        "list_content",
+        "content_inventory",
+        "list_content_types",
+        "list_categories",
+        "get_company_overview"
+      ],
+      "tags": [
+        "events",
+        "content",
+        "case-studies",
+        "podcast",
+        "blog",
+        "b2b-events"
+      ],
+      "representativeQueries": [
+        "find Bizzabo customer case studies in healthcare",
+        "show how a company ran a large conference on Bizzabo",
+        "get event marketing blog posts and planning guides",
+        "list Event Experience Podcast episodes about attendee engagement",
+        "compare Bizzabo to other event management platforms"
+      ]
+    }
+  ]
+}
