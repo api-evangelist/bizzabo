@@ -73,7 +73,7 @@ apis:
       - Registrations
       - Sessions
       - Speakers
-      - Tickets
+      - Ticketing
       - Analytics
       - Webhook
     tags_raw:
