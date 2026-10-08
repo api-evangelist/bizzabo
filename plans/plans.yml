@@ -54,3 +54,16 @@ plans:
       - name: SSO
         description: Single Sign-On for enterprise identity management
         price: Contact for pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Event Experience OS
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
