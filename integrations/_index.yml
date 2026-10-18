@@ -65,7 +65,7 @@
     - connectors/applications/bizzabo-app
     vendor_link: https://www.bizzabo.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: bizzabo-zoom-own
   label: Zoom (own)
