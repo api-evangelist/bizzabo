@@ -28,19 +28,6 @@
     builder: unknown (not in the directory record)
   status: not-a-workflow
   arazzo: null
-- slug: bizzabo-wordpress-own
-  label: WordPress (own)
-  partner: wordpress
-  partner_name: WordPress (own)
-  category: WordPress plugin
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://wordpress.org/plugins/bizzabo/
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: bizzabo-fivetran
   label: Fivetran
   partner: fivetran
@@ -67,6 +54,19 @@
     builder: Fivetran
   status: not-a-workflow
   arazzo: null
+- slug: bizzabo-wordpress-own
+  label: WordPress (own)
+  partner: wordpress
+  partner_name: WordPress (own)
+  category: WordPress plugin
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://wordpress.org/plugins/bizzabo/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
 - slug: bizzabo-zoom-own
   label: Zoom (own)
   partner: zoom
@@ -76,6 +76,19 @@
   marketplace: own
   channel: partner-built
   evidence: https://marketplace.zoom.us/apps/PV2xLFu6Q3-9ieoVepFMSQ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: bizzabo-hubspot-own
+  label: HubSpot (own)
+  partner: hubspot
+  partner_name: HubSpot (own)
+  category: EVENT_MANAGEMENT
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/bizzabo
   source: edge
   relationship: platform-app
   status: not-a-workflow
