@@ -1,4 +1,4 @@
-# Bizzabo (bizzabo)
+# Bizzabo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,74 +66,110 @@
 
 Bizzabo is a B2B event experience platform with REST APIs for managing conferences, speakers, ticketing, attendee data, and event analytics and performance metrics. The open API enables developers to build custom integrations, automate event workflows, synchronize attendee data with CRM and marketing platforms, and deliver personalized event experiences at scale.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/apis.yml)
+**Areas:** Event · Event Management · B2B Events · Conference Management · Ticketing · Attendees · Speakers · Registration · Analytics · Event Technology
 
-## Tags
+## Bizzabo on APIs.io
 
-- Events
-- Event Management
-- B2B Events
-- Conference Management
-- Ticketing
-- Attendees
-- Speakers
-- Registration
-- Analytics
-- Event Technology
+Everything profiled for Bizzabo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bizzabo/](https://apis.io/providers/bizzabo/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [Bizzabo Public API](https://apis.io/apis/bizzabo/bizzabo-public-api/) — RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables…
 
-## APIs
+### Published properties
 
-### Bizzabo Public API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to build custom integrations and automations on top of the Bizzabo Event Experience OS.
+#### JSON-LD (1)
 
-- **Human URL:** [https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api](https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api)
-- **Base URL:** `https://api.bizzabo.com/v1`
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags
+- [Apis Context](https://apis.io/jsonld/bizzabo/apis/)
 
-- Events
-- Contacts
-- Registrations
-- Sessions
-- Speakers
-- Tickets
-- Analytics
-- Webhooks
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api)
-- [Authentication](https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/ZG9jOjU4NjM4-authentication)
-- [Rate Limits](https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/f6e05cacf2032-api-rate-limits)
-- [Status Page](https://status.bizzabo.com/)
-- [Pricing](https://www.bizzabo.com/pricing)
-- [Integrations](https://www.bizzabo.com/event-management-software/event-software-integrations)
-- [GitHub Organization](https://github.com/bizzabo)
-- [npm Package](https://www.npmjs.com/package/bizzabo-api)
-- [Contact Us](https://www.bizzabo.com/contact-us)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/plans/plans.yml)
-- [Rate Limit Rules](https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/rate-limits/rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/finops/finops.yml)
+- [Bizzabo Domain Security](https://apis.io/security/bizzabo/bizzabo-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/bizzabo/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/bizzabo/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/bizzabo/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.bizzabo.com/)
 - [Documentation](https://bizzabo.stoplight.io/docs/bizzabo-partner-apis/784b40317b1fa-introduction-to-bizzabo-s-open-application-programming-interface-api)
-- [Blog](https://www.bizzabo.com/blog)
 - [Pricing](https://www.bizzabo.com/pricing)
-- [Status Page](https://status.bizzabo.com/)
-- [GitHub Organization](https://github.com/bizzabo)
-- [Contact Us](https://www.bizzabo.com/contact-us)
-- [Integrations](https://www.bizzabo.com/event-management-software/event-software-integrations)
-- [Login](https://login.bizzabo.com/)
+- [Blog](https://www.bizzabo.com/blog)
+- [GitHub](https://github.com/bizzabo)
+- [Status](https://status.bizzabo.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 20.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 22.4 |
+
+**Agent readiness 5.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bizzabo/](https://apis.io/providers/bizzabo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bizzabo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bizzabo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
